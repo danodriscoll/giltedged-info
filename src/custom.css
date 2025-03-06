@@ -1,0 +1,133 @@
+:root {
+  --color-text: #333;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --line-height-loose: 1.75;
+  --line-height-normal: 1.5;
+  --line-height-dense: 1.1;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  font: sans-serif;
+  font-size: var(--font-md);
+  line-height: var(--line-height-normal);
+  overflow-y: scroll;
+}
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: var(--color-text);
+  font-family: sans-serif;
+  font-family: var(--font-sans);
+  font-weight: normal;
+  margin: 0;
+  word-wrap: break-word;
+}
+h1, h2, h3, h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+#modelWrapper {
+  position: relative;
+  width: 180px;
+  height: 180px;
+}
+.GovernmentAgentWrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
+.CentralBankAgentWrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
+.ProducerHouseholdAgentWrapper {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  padding: 0;
+  margin: 0;
+}
+.code-container {
+  border-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(44,53,64,var(--tw-bg-opacity));
+}    
+.code-container .code-title {
+  --tw-text-opacity: 1;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+  background-color: rgba(64,71,82,var(--tw-bg-opacity));
+  color: rgba(255,255,255,var(--tw-text-opacity));
+  padding: 1rem;
+  font-family: monospace;
+}
+.code-container code {
+  font-size: 1rem!important;
+  background: transparent!important;
+}
+code {
+  font-family: "Fira Code", monospace;
+  font-size: .875rem;
+  line-height: 1.42;
+  letter-spacing: 0;
+  word-wrap: break-word;
+}
+code.python {
+  border-radius: 0.375rem;
+  background-color: rgba(44,53,64,var(--tw-bg-opacity));
+  padding: 1rem;
+  border: 0;
+  border-style: none;
+}
+.python {
+  display: block;
+  overflow-x: auto;
+  background: #2b2b2b;
+  color: #f8f8f2;
+  padding: 0.5em;
+}
+.python-docstring {
+  color: #f5ab35;
+}
+.python-comment {
+  color: #87b42e;
+}
+.python-method {
+  color: #0789ec;
+}
+.python-method-name {
+  color: #f3df06eb;
+}
+.python-object {
+  color: #93d2f6;
+}
+.python-string {
+  color: #db9119;
+}
+.python-bracket {
+  color: #f5df35;
+}
+.python-type-bracket {
+  color: rgb(208, 58, 205);
+}
+.python-logic {
+  color: rgb(208, 58, 205);
+}
+.python-logical-operator {
+  color: #597af0;
+}
+.python-type {
+  color: #abe338;
+}
+#analysisWrapper {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
