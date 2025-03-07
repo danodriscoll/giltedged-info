@@ -35,11 +35,11 @@ function Index() {
         </p>
 
         <h2 className="mt-4">
-          Substack
+          Outputs &amp; Analyses
         </h2>
 
         <p>
-          This Substack serves as a repository for my notes on the development and analysis of Project GEM. I aspire to improve my communication of insights gained from the analyses of both simple, evolving, models and real-world UK historical events.
+          A Substack serves as a repository for Project GEM developments and scenarios. Analyses of GEM outputs may blend with real-world UK macro times-series and historical events.
         </p>
 
       </div>

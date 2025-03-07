@@ -14,10 +14,9 @@ function Models() {
           Gilt Edged Mini (GEM)
         </h1>
 
-        <p>
-          Project GEM is the development of models that may be used to consider real-world economic agent relationships. That is, the economic power relationships that exist between sectoral agents and how those relationships might affect and produce macro outcomes in the shape of observed real-world Gilt dynamics.
-        </p>
-
+        <div className="alert alert-info" role="alert">
+          Project GEM is the development of models that may be used to think about real-world economic agent relationships. Specifically, how might sectoral agent behaviours affect and produce macro outcomes in the shape of real-world Gilt dynamics.
+        </div>
 
         <p className="fw-bold">
           Development themes include, but are not limited to the following:
@@ -57,11 +56,7 @@ function Models() {
         </h3>
 
         <p>
-          GEM models employ the <a className="icon-link" href="https://mesa.readthedocs.io/stable/index.html" target="_blank">Mesa <i className="bi bi-box-arrow-up-right mb-2"></i></a> agent-based modelling (ABM) framework written in <a className="icon-link" href="https://www.python.org/" target="_blank">Python <i className="bi bi-box-arrow-up-right mb-2"></i></a>. Visit GiltEdged.systems for model agent code snippets and explanations.
-        </p>
-
-        <p className='mt-4 mb-5'>
-          Visit the <a className="icon-link" href="https://www.giltedged.systems" target="_blank">GiltEdged.systems <i className="bi bi-box-arrow-up-right mb-2"></i></a> website for model descriptions and code.
+          GEM models employ the <a className="icon-link" href="https://mesa.readthedocs.io/stable/index.html" target="_blank">Mesa <i className="bi bi-box-arrow-up-right mb-2"></i></a> agent-based modelling (ABM) framework written in <a className="icon-link" href="https://www.python.org/" target="_blank">Python <i className="bi bi-box-arrow-up-right mb-2"></i></a>. Visit the <a className="icon-link" href="https://www.giltedged.systems" target="_blank">GiltEdged.systems <i className="bi bi-box-arrow-up-right mb-2"></i></a> website for model descriptions and code.
         </p>
 
         <div className="modal fade" id="modernModal" tabIndex="-1" aria-labelledby="modernModalLabel" aria-hidden="true">
