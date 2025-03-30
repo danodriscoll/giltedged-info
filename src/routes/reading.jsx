@@ -62,6 +62,11 @@ function Reading() {
               <td>Kjell G. Nyborg</td>
               <td>Collateral Frameworks: The Open Secrets of Central Banks</td>
             </tr>
+            <tr>
+              <td>Book</td>
+              <td>John F. Weeks</td>
+              <td>The Debt Delusion: Living Within Our Means and Other Fallacies</td>
+            </tr>
           </tbody>
         </table>
 

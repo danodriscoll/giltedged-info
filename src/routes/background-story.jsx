@@ -18,7 +18,7 @@ function Index() {
           Background Story
         </h1>
 
-        <p>
+        <p className='mt-4'>
           I'll cut to the chase. I'm not an economist. I'm a full-time carer for my disabled mum. I have previously worked for a Japanese sogo-shosha, a big-4 professional service and a major energy transmission company. My further education story includes an undergraduate degree in Business & Economics (BA) and a postgraduate degree in Computer Security Forensics & Risk Management (MSc).
         </p>
 
