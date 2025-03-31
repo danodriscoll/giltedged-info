@@ -9,7 +9,7 @@ export default defineConfig({
     VitePluginRadar({
       // Google Analytics tag injection
       analytics: {
-        id: 'G-XXXX',
+        id: 'G-T7XQ0FMF6G',
       },
     })    
   ],
