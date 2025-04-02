@@ -43,7 +43,7 @@ function GEM() {
         </h3>
 
         <p>
-          Model run macro and agent-level outputs are wrangled and analysed. For instance, model macro output is augmented with trend change (<span className="fst-italic">velocity</span>) and trend change in the change (<span className="fst-italic">acceleration</span>) at which new bills are issued by the Government. View a <Link className="icon-link" to="/gilt-edged-mini/uk-static-perspective">UK Static Perspective</Link> for a simple example of correlation between model system analysis and real-world UK Gilt dynamics.
+          Model run macro and agent-level outputs are wrangled and analysed. For instance, model macro output is augmented with trend change (<span className="fst-italic">velocity</span>) and trend change in the change (<span className="fst-italic">acceleration</span>) at which new bills are issued by the Government as a percentage of national income. View a <Link className="icon-link" to="/gilt-edged-mini/uk-static-perspective">UK Static Perspective</Link> for a simple example of correlation between model system analysis and real-world UK Gilt dynamics.
         </p>
 
         <h2 className='mb-4 mt-4'>
