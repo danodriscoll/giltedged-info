@@ -6,7 +6,7 @@ function StaticPerspective() {
   return (
     <>
       <Helmet>
-      <title>Market Finance</title>
+      <title>UK Static Perspective</title>
       <meta name='description' content='A UK static perspective.' />
       </Helmet>    
       <div className="container">
