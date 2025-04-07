@@ -72,7 +72,7 @@ function GEM() {
 
         <ol className="list-group list-group-numbered list-group-flush">
           <li className="list-group-item">
-            Highly condensed model runs consuming annual economic time-series data:Beginning 1695; ending 1954.
+            Highly condensed model runs consuming annual economic time-series data: Beginning 1695; ending 1954.
           </li>
           <li className="list-group-item">
             Model runs consuming UK quarterly economic time-series <a className="icon-link" href="https://www.data-reports.net/giltedged-info/explode_quarterly_values.html" target="_blank">exploded <i className="bi bi-box-arrow-up-right mb-2"></i></a> into monthly time-series from 1955 to the present.
