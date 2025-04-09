@@ -22,24 +22,37 @@ function GEM() {
           Agent Model
         </h2>
 
-        <p className="fw-bold">
+        <p>
+          Agent-Based Model Liquidity Preference-X (ABMLP-X) is an interpretation - an open ended development - of the third sectoral system described by Wynne Godley and Marc Lavoie (G&L) in their book <Link className="icon-link" to="/reading#monetary-economics" id="monetary-economics">Monetary Economics</Link>. ABMLP-X (the model) may consume pro rata expenditure and interest rate time-series for the UK.
+        </p>
+
+
+        <h3 className='mb-4 mt-4'>
           Model Run Scenarios: Past, Present & Future
+        </h3>
+
+        <p className="fw-bold mt-4">
+          Model Run Time Spans
         </p>
 
-        <p>
-          Agent-Based Model Liquidity Preference-X (ABMLP-X) is an interpretation - an open ended development - of the third sectoral system described by Wynne Godley and Marc Lavoie (G&amp;L) in their book Monetary Economics. ABMLP-X (the model) may consume pro rata expenditure and interest rate time-series for the UK. A model run may start at the beginning of any financial year from 1695 onwards.
-        </p>
+        <ol className="list-group list-group-numbered list-group-flush">
+          <li className="list-group-item">
+            Highly condensed annual UK economic time-series data: Beginning 1695; ending 1954.            
+          </li>
+          <li className="list-group-item">
+            UK quarterly economic time-series <a className="icon-link" href="https://www.data-reports.net/giltedged-info/explode_quarterly_values.html" target="_blank">exploded <i className="bi bi-box-arrow-up-right mb-2"></i></a> into monthly time-series from 1955 to the present: A model run may end with the latest release of economic time-series data made available from the ONS website.
+          </li>
+          <li className="list-group-item">
+            To the future: A model run may also end with time-series values that go beyond available <a className="icon-link" href="https://www.ons.gov.uk/" target="_blank">ONS <i className="bi bi-box-arrow-up-right mb-2"></i></a> data - values determined by model agent logics. The latest release of ONS time-series data is typically one financial quarter behind today's date. A model run that proceeds with model generated values is an imagined journey to both the present and future.
+          </li>
+        </ol>
 
-        <p>
-          A model run may end with the latest release of economic time-series data made available from the <a className="icon-link" href="https://www.ons.gov.uk/" target="_blank">ONS <i className="bi bi-box-arrow-up-right mb-2"></i></a> website. It may also end with time-series values that go beyond available ONS data - values determined by model agent logics. The latest release of ONS time-series data is typically one financial quarter behind today's date. A model run that ends with model generated values is an imagined journey to both the present and future.
-        </p>
-
-        <p>
+        <p className='mb-4 mt-4'>
           Visit the <a className="icon-link" href="https://www.giltedged.systems" target="_self">GiltEdged.systems <i className="bi bi-box-arrow-up-right mb-2"></i></a> website for model code gists and descriptions.
         </p>
 
         <h3 className='mb-4 mt-4'>
-          Agent Model Analysis
+          Model Analysis
         </h3>
 
         <p>
@@ -51,7 +64,7 @@ function GEM() {
         </h2>
 
         <p className="fw-bold">
-          Research themes include, but are not limited to:
+          Themes include, but are not limited to:
         </p>
 
         <ol className="list-group list-group-numbered list-group-flush">
@@ -62,23 +75,12 @@ function GEM() {
             Historical patterns of events that affect English public money creation.
           </li>
           <li className="list-group-item">
-            How the evolving behavioural logic of agents affect model system aggregates.
-          </li>
-        </ol>
-
-        <p className="fw-bold mt-4">
-          Research Classifications:
-        </p>
-
-        <ol className="list-group list-group-numbered list-group-flush">
-          <li className="list-group-item">
-            Highly condensed model runs consuming annual economic time-series data: Beginning 1695; ending 1954.
-          </li>
-          <li className="list-group-item">
-            Model runs consuming UK quarterly economic time-series <a className="icon-link" href="https://www.data-reports.net/giltedged-info/explode_quarterly_values.html" target="_blank">exploded <i className="bi bi-box-arrow-up-right mb-2"></i></a> into monthly time-series from 1955 to the present.
-          </li>
-          <li className="list-group-item">
-            A model run to the future: The setting of model parameters by model agent logics within the context of an evolving Asset Manager class.
+            How the evolving behavioural logic of agents affect model system aggregates, in particular:
+            <ol className="list-group list-group-numbered list-group-flush">
+              <li className="list-group-item">
+                Within the framework of an evolving Asset Manager agent class.
+              </li>
+            </ol>
           </li>
         </ol>
 
