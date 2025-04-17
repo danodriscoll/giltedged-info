@@ -69,12 +69,6 @@ function Index() {
           <span className="text-muted">Dan O&#39;Driscoll</span>. <span className="text-muted">Email:</span> <a className="icon-link" href="mailto:daniel@giltedged.info">daniel@giltedged.info</a>.
         </p>
 
-        <hr className="bg-secondary mt-3 mb-4 col-md-3" />
-
-        <p className='mb-4'>
-          Peruse project <Link to="/gilt-edged-mini#nav-bar">GEM</Link>.
-        </p>
-
         <div className="modal fade" id="godleyModal" tabIndex="-1" aria-labelledby="godleyModalLabel" aria-hidden="true">
           <div className="modal-dialog modal-lg">
             <div className="modal-content">

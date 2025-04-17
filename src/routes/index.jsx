@@ -23,7 +23,7 @@ function Index() {
         </h2>
 
         <p>
-          An email received; an interest sparked. Read a mercifully brief <Link className="icon-link" to="/background-story">back story</Link>.
+          An email received; an interest sparked. Read a mercifully brief <Link className="icon-link" to="/background-story">background story</Link>.
         </p>
 
         <h3 className="mt-4 text-secondary">
@@ -39,7 +39,11 @@ function Index() {
         </h3>
 
         <p>
-          A highly simplified Government money system meets real-world macroeconomic time-series and events. Read about project <Link className="icon-link" to="/gilt-edged-mini">GEM</Link>.
+          The <Link className="icon-link" to="/background-story">background story</Link> notes my desire to learn about English history, in particular the evolution of the English monetary system. My motivations for wanting to know more about this system are twofold and connected. First, the long history of this particular social system - its operations and effects - fascinates me. How and why does it proceed in the way it does? Second, I want to better understand the dynamics observed in the secondary market for the United Kingdom of Great Britain and Northern Ireland (UK) Government interest-bearing money instruments. GEM combines these motivations into one evolving project.
+        </p>
+
+        <p>
+          Visit the <a className="icon-link" href="https://www.giltedged.systems" target="_blank">GiltEdged.systems <i className="bi bi-box-arrow-up-right mb-2"></i></a> website for project GEM as well as model code gists and descriptions.
         </p>
 
       </div>

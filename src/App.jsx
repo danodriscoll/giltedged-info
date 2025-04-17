@@ -8,9 +8,7 @@ import NavBar from './components/navBar'
 import Index from './routes/index'
 import Story from './routes/background-story'
 import Reading from "./routes/reading"
-import GEM from "./routes/gem"
 const MarketFinance = lazy(() => import('./routes/market-finance'));
-const StaticPerspective = lazy(() => import('./routes/uk-static-perspective'));
 
 const helmetContext = {};
 
@@ -63,15 +61,7 @@ const router = createBrowserRouter([
       {
         path: "/background-story",
         element: <Story />,
-      },      
-      {
-        path: "/gilt-edged-mini",
-        element: <GEM />,
       },
-      {
-        path: "/gilt-edged-mini/uk-static-perspective",
-        element: <StaticPerspective />,
-      },      
       {
         path: "/reading",
         element: <Reading />,
