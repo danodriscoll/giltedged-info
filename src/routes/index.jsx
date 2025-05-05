@@ -39,16 +39,28 @@ function Index() {
         </h2>
 
         <p>
-          The <Link className="icon-link" to="/background-story">background story</Link> notes my desire to learn about the fascinating evolution of the English monetary system. A system designed to blend nominalism with metallism and produce the safest (Gilt) asset of all: An asset - with operational tweaks - that remains crucial to the <a className="icon-link" href="https://www.bankofengland.co.uk/quarterly-bulletin/2023/2023/financial-stability-buy-sell-tools-a-gilt-market-case-study" target="_blank">stability <i className="bi bi-box-arrow-up-right mb-2"></i></a> of an inherently unstable market-based finance system.
+          The <Link className="icon-link" to="/background-story">background story</Link> notes my desire to learn about the evolution of the English monetary system. A system designed to blend nominalism with metallism and produce the safest (Gilt) asset of all: An asset that remains crucial to the <a className="icon-link" href="https://www.bankofengland.co.uk/quarterly-bulletin/2023/2023/financial-stability-buy-sell-tools-a-gilt-market-case-study" target="_blank">stability <i className="bi bi-box-arrow-up-right mb-2"></i></a> of an inherently unstable financial system.
+        </p>
+
+        <figure className="mt-4 mb-4">
+          <blockquote className="blockquote">
+            <p>
+              To know your future you must know your past
+            </p>
+          </blockquote>
+          <figcaption className="blockquote-footer">
+            George Santayana
+          </figcaption>
+        </figure>
+
+        <p>
+          GEM is the production of timeline analyses that merge the output of agent-based model run scenarios with real-world UK economic time-series and historical events since the  <button type="button" className="btn btn-link ps-0 pe-0 icon-link" data-bs-toggle="modal" data-bs-target="#modernTurn" style={{ marginTop: `-9px`, marginBottom: `-5px` }}>modern turn</button>. My models are tuned to exploring the system as it exists. Not the essence of the system I imagined it to be before my <Link className="icon-link" to="/reading">reading</Link>. In short, Gilt price and yield dynamics reflect a structure distinct from the generally received narrative.
         </p>
 
         <p>
-          GEM is an evolving research project. It merges the analysis of agent-based model output with real-world economic time-series and historical events since the <button type="button" className="btn btn-link ps-0 pe-0 icon-link" data-bs-toggle="modal" data-bs-target="#modernTurn" style={{ marginTop: `-9px`, marginBottom: `-5px` }}>modern turn</button>. My models and research are tuned to exploring the core of the system as it exists. Not the essence of the system I imagined it to be before my <Link className="icon-link" to="/reading">reading</Link>. In short, Gilt price and yield dynamics reflect a structure distinct from the generally received narrative.
+          Visit the <a className="icon-link" href="https://www.giltedged.systems" target="_blank">GiltEdged.systems <i className="bi bi-box-arrow-up-right mb-2"></i></a> website for a GEM project outline as well as code gists and descriptions.
         </p>
 
-        <p>
-          Visit the <a className="icon-link" href="https://www.giltedged.systems" target="_blank">GiltEdged.systems <i className="bi bi-box-arrow-up-right mb-2"></i></a> website for a GEM project outline as well as model code gists and descriptions.
-        </p>
         <div className="modal fade" id="modernTurn" tabIndex="-1" aria-labelledby="modernTurnLabel" aria-hidden="true">
           <div className="modal-dialog modal-lg">
             <div className="modal-content">
