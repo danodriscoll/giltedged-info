@@ -19,6 +19,9 @@ function NavBar() {
                 <NavLink to="/background-story" className="nav-link">Story</NavLink>
               </li>
               <li>
+                <NavLink to="/gilt-edged-mini" className="nav-link">GEM</NavLink>
+              </li>
+              <li>
                 <NavLink to="/reading" className="nav-link">Reading</NavLink>
               </li>
             </ul>

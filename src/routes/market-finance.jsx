@@ -6,8 +6,8 @@ function MarketFinance() {
   return (
     <>
       <Helmet>
-      <title>Market Finance</title>
-      <meta name='description' content='A simple description of market-based finance' />
+        <title>Market Finance</title>
+        <meta name='description' content='A simple description of market-based finance' />
       </Helmet>    
       <div className="container">
         <h1 className="mt-4" id="market-finance">
