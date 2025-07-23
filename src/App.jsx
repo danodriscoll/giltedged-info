@@ -5,6 +5,7 @@ import ScrollToHashElement from "./components/scrollToHashElement"
 
 import ErrorPage from "./routes/errorPage"
 import NavBar from './components/navBar'
+import Footer from "./components/footer"
 import Index from './routes/index'
 import Story from './routes/background-story'
 import Reading from "./routes/reading"
@@ -16,7 +17,6 @@ const helmetContext = {};
 const Loading = () => {
   return (
     <div>
-      <NavBar />
       <div className="container">
         <h1 className="mt-4 text-secondary" id="loading-page">
           Loading...
@@ -28,24 +28,27 @@ const Loading = () => {
 
 const Layout = () => {
   return (
-    <div>
+    <div className="d-flex flex-column min-vh-100">
       <ScrollToHashElement />
+      <NavBar />
       <Suspense fallback={<Loading />}>
-        <NavBar />
         <HelmetProvider context={helmetContext}>
           <Outlet />
         </HelmetProvider>
       </Suspense>
+      <Footer />
     </div>
   );
 };
 
 const Error = () => {
   return (
-    <div>
+    <div className="d-flex flex-column min-vh-100">
+      <NavBar />
       <HelmetProvider context={helmetContext}>
         <ErrorPage />
       </HelmetProvider>
+      <Footer />
     </div>
   );
 };

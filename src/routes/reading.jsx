@@ -249,12 +249,6 @@ function Reading() {
           </tbody>
         </table>
 
-        <hr className="bg-secondary mt-5 mb-4 col-md-6" />
-
-        <p className='mt-4 mb-5'>
-          Go <Link to="/#nav-bar">home</Link>.
-        </p>
-
         <div className="modal fade" id="bondMarketModal" tabindex="-1" aria-labelledby="bondMarketModalLabel" aria-hidden="true">
           <div className="modal-dialog modal-xl">
             <div className="modal-content">

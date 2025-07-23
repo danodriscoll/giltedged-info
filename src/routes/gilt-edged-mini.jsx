@@ -75,7 +75,7 @@ function GEM() {
           <hr className="mt-4 mb-4 col-md-6" />
         </div>
 
-        <ul className="list-unstyled">
+        <ul className="list-unstyled mb-5">
           <li>
             <sup>1</sup><small> UK expenditure time-series may be divided as such: The ONS UK <a className="icon-link" href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/timeseries/ukpop/pop" target="_blank">population <i className="bi bi-box-arrow-up-right mb-2"></i></a> estimate by the total number of model household agents.</small>
           </li>
