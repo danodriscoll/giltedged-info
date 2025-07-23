@@ -1,5 +1,4 @@
 import { Helmet } from 'react-helmet-async'
-import { Link } from 'react-router-dom'
 
 function Reading() {
 
@@ -7,7 +6,7 @@ function Reading() {
     <>
       <Helmet>
         <title>Reading</title>
-        <meta name='description' content='Daniel ODriscoll reading list.' />
+        <meta name='description' content='Gilt Edged Info - reading list.' />
       </Helmet>
       <div className="container">
         <h1 className="mt-4" id="reading-list">

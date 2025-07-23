@@ -39,7 +39,7 @@ function Index() {
         </p>
 
         <p>
-          My reading continued. By late 2022 it dawned on me that the wonderful books and academic papers I have mostly read since 2018 were each a lens through which to view a particular social system - one of power, resources and the distribution thereof. Latterly, my nascent awareness of modern money as an inherently <Link className="icon-link" to="/background-story/market-finance" id="market-finance">unstable</Link> market-based financial system has come into view. A pro-cyclical, collateralised, bond price sensitive system to completely absorb the theme of Tooze's tome.
+          My reading continued. By late 2022 it dawned on me that the wonderful books and academic papers I have mostly read since 2018 were each a lens through which to view a particular social system - one of power, resources and the distribution thereof. Latterly, my nascent awareness of modern money as an inherently unstable <Link className="icon-link" to="/background-story/market-finance" id="market-finance">market-based</Link> financial system has come into view. A pro-cyclical, collateralised, bond price sensitive system to completely absorb the theme of Tooze's tome.
         </p>
 
         <h3 className="mb-4 mt-4">

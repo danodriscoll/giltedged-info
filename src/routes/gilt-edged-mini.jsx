@@ -10,7 +10,7 @@ function GEM() {
         <meta name='description' content='A simple description of the Gilt-Edged Mini project' />
       </Helmet>    
       <div className="container">
-        <h1 className="mt-4" id="market-finance">
+        <h1 className="mt-4" id="gem">
           Gilt-Edged Mini
         </h1>
 
